@@ -5,7 +5,7 @@
 
     .homepage {
         text-align: center;
-        background: #161415 url(homepage.jpg) no-repeat top center;
+        background: #161415 url(public/images/homepage.jpg) no-repeat top center;
         background-size: cover !important;
         -webkit-background-size: cover !important;
         overflow: hidden;
