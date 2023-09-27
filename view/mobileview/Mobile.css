@@ -1,0 +1,19 @@
+@media screen and (max-width: 501px) {
+  body {
+    font-size: 10px;
+  }
+
+  .title {
+    font-weight: bold;
+    color: rgb(101, 101, 101);
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  .section {
+    margin: 10px;
+    border-bottom: solid rgb(93, 92, 92);
+  }
+}

@@ -1,0 +1,77 @@
+@media screen and (min-width: 501px) and (max-width: 850px) {
+  .title {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: cursive;
+  }
+
+  .introduction--name,
+  .introduction--work,
+  .mobile {
+    display: none;
+  }
+
+  .tablet {
+    display: flex;
+    overflow-x: hidden;
+  }
+
+  .sidebar {
+    flex: 4;
+    width: 40%;
+    background: rgb(22, 21, 21);
+    margin-top: 10px;
+    position: fixed;
+  }
+
+  .main {
+    flex: 6;
+    position: relative;
+    min-height: 100vh;
+    padding: 10px;
+    width: 60%;
+    background-color: #242424;
+    margin-left: 40%;
+    overflow-y: hidden;
+  }
+
+  body {
+    font-size: 10px;
+  }
+
+  .section {
+    margin: 15px;
+  }
+
+  .sudo--title--side {
+    position: relative;
+  }
+
+  .sudo--title--side::after {
+    content: " ";
+    position: absolute;
+    top: 20px;
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 1px;
+    background-color: white;
+  }
+
+  .sudo--title--main {
+    position: relative;
+  }
+
+  .sudo--title--main::after {
+    content: " ";
+    position: absolute;
+    top: 20px;
+    left: -25px;
+    bottom: 0;
+    width: 100px;
+    height: 1px;
+    background-color: white;
+  }
+}

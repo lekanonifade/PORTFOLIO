@@ -1,0 +1,286 @@
+@media screen and (min-width: 850px) {
+    .experience--section {
+        display: flex;
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+
+    .experience--image {
+        display: none;
+    }
+
+    .experience--title {
+        font-weight: bold;
+    }
+
+    .experience--work {
+        margin-top: -5px;
+    }
+
+    .experience--details {
+        display: flex;
+        justify-content: space-between;
+        margin-top: -15px;
+        color: rgb(148, 145, 145);
+    }
+
+    .experience--link {
+        margin-right: 10px;
+        text-decoration: none;
+        color: rgb(148, 145, 145);
+    }
+
+    .experience--tech {
+        margin-top: -5px;
+    }
+
+    .experience--stack {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+
+    .experience--techstack {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 5px;
+        background: rgb(74, 73, 73);
+        border-radius: 3px;
+        padding: 0px 5px 0px 5px;
+    }
+
+    .tech--image {
+        width: 15px;
+    }
+
+    .tech--title {
+        font-weight: bold;
+        color: rgb(212, 211, 211);
+    }
+
+    .experience--note {
+        margin-top: -5px;
+        text-indent: 10px;
+        text-align: justify;
+    }
+
+    .experience--ul {
+        margin-top: -5px;
+        text-align: justify;
+    }
+
+    .experience--work {
+        font-style: italic;
+    }
+
+    .experience--link {
+        color: #ff4655;
+        /* cursor: alias; */
+    }
+
+    /* .experience--link:hover {
+        color: rgb(152, 107, 152);
+    }
+    .experience--link:visited {
+        color: rgb(98, 98, 134);
+    } */
+}
+
+@media screen and (min-width: 501px) and (max-width: 850px) {
+    .experience--container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .experience--image {
+        display: none;
+    }
+
+    .experience--title {
+        font-weight: bold;
+    }
+
+    .experience--work {
+        margin-top: -5px;
+    }
+
+    .experience--details {
+        display: flex;
+        justify-content: space-between;
+        margin-top: -15px;
+        color: rgb(148, 145, 145);
+    }
+
+    .experience--link {
+        margin-right: 10px;
+        text-decoration: none;
+        color: rgb(148, 145, 145);
+    }
+
+    .experience--tech {
+        margin-top: -5px;
+    }
+
+    .experience--stack {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+
+    .experience--techstack {
+        display: flex;
+        gap: 5px;
+        margin-top: -5px;
+        margin-bottom: 5px;
+        background: rgb(74, 73, 73);
+        border-radius: 3px;
+        padding: 0px 5px 0px 5px;
+        height: 25px;
+    }
+
+    .tech--image {
+        width: 15px;
+    }
+
+    .tech--title {
+        font-size: 8px;
+        font-weight: bold;
+        color: rgb(212, 211, 211);
+    }
+
+    .experience--note {
+        margin-top: -5px;
+        text-indent: 10px;
+        text-align: justify;
+    }
+
+    .experience--ul {
+        margin-top: -5px;
+        text-align: justify;
+    }
+
+    .experience--work {
+        font-style: italic;
+    }
+
+    .experience--link {
+        color: #ff4655;
+        /* cursor: alias; */
+    }
+
+    .line {
+        width: 70%;
+        height: 1px;
+        background-color: rgba(114, 114, 114, 0.492);
+        border: none;
+    }
+
+    /* .experience--link:hover {
+        color: rgb(152, 107, 152);
+    }
+    .experience--link:visited {
+        color: rgb(98, 98, 134);
+    } */
+}
+
+@media screen and (max-width: 501px) {
+    .experience--container {
+        display: flex;
+        gap: 10px;
+    }
+
+    .experience--image {
+        width: 15%;
+        height: 45px;
+        margin-top: 10px;
+    }
+
+    .experience--relative {
+        width: 85%;
+    }
+
+    .experience--title {
+        font-weight: bold;
+    }
+
+    .experience--work {
+        margin-top: -5px;
+    }
+
+    .experience--link {
+        margin-right: 10px;
+        text-decoration: none;
+        color: rgb(148, 145, 145);
+    }
+
+    .experience--details {
+        display: flex;
+        justify-content: space-between;
+        margin-top: -15px;
+        color: rgb(148, 145, 145);
+    }
+
+    .experience--tech {
+        margin-top: -5px;
+    }
+
+    .experience--stack {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+
+    .experience--techstack {
+        display: flex;
+        gap: 5px;
+        margin-top: -5px;
+        margin-bottom: 5px;
+        background: rgb(74, 73, 73);
+        border-radius: 3px;
+        padding: 0px 5px 0px 5px;
+        height: 25px;
+    }
+
+    .tech--image {
+        width: 15px;
+    }
+
+    .tech--title {
+        font-size: 8px;
+        font-weight: bold;
+        color: rgb(212, 211, 211);
+    }
+
+    .experience--note {
+        margin-top: -5px;
+        text-indent: 10px;
+        text-align: justify;
+    }
+
+    .experience--ul {
+        margin-top: -5px;
+        text-align: justify;
+    }
+
+    .experience--work {
+        font-style: italic;
+    }
+
+    .experience--link {
+        color: #ff4655;
+    }
+
+    /* .experience--link:hover {
+        color: rgb(152, 107, 152);
+    }
+    .experience--link:visited {
+        color: rgb(98, 98, 134);
+    } */
+    .line {
+        display: none;
+    }
+}

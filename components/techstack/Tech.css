@@ -1,0 +1,137 @@
+@media screen and (min-width: 850px) {
+    .tech--section {
+        display: flex;
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+
+    .featured {
+        display: none;
+    }
+
+    .tech--render {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+
+    .tech--container {
+        display: flex;
+        gap: 10px;
+    }
+
+    .tech--image {
+        width: 15px;
+    }
+
+    .tech--prop {
+        background: rgb(74, 73, 73);
+        border-radius: 3px;
+        padding: 0px 5px 0px 5px;
+    }
+
+    .tech--details {
+        display: flex;
+        gap: 10px;
+    }
+
+    .tech--details--span {
+        color: rgb(148, 145, 145);
+    }
+
+    .tech--word {
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 850px) {
+    .tech--render {
+        /* display: grid;
+        grid-template-columns: repeat(4, 1fr); */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+
+    .tech--container {
+        display: flex;
+        gap: 2px;
+        font-size: 8px;
+    }
+
+    .tech--image {
+        width: 15px;
+    }
+
+    .featured {
+        font-size: 8px;
+        color: rgb(148, 145, 145);
+    }
+
+    .tech--prop {
+        background: rgb(74, 73, 73);
+        border-radius: 3px;
+        padding: 0px 5px 0px 5px;
+    }
+
+    .tech--details {
+        display: flex;
+        gap: 3px;
+    }
+
+    .tech--details--span {
+        color: rgb(148, 145, 145);
+    }
+
+    .tech--word {
+        font-weight: bold;
+
+    }
+}
+
+@media screen and (max-width: 501px) {
+    .tech--render {
+        /* display: grid;
+        grid-template-columns: repeat(4, 1fr); */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+        margin-bottom: 10px;
+    }
+
+    .tech--container {
+        display: flex;
+        gap: 5px;
+        font-size: 8px;
+    }
+
+    .tech--image {
+        width: 15px;
+    }
+
+    .featured {
+        display: none;
+    }
+
+    .tech--prop {
+        background: rgb(74, 73, 73);
+        border-radius: 3px;
+        padding: 0px 5px 0px 5px;
+    }
+
+    .tech--details {
+        display: flex;
+        gap: 3px;
+    }
+
+    .tech--details--span {
+        color: rgb(148, 145, 145);
+    }
+
+    .tech--word {
+        font-weight: bold;
+
+    }
+}

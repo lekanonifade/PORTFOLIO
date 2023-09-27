@@ -1,0 +1,180 @@
+@media screen and (min-width: 850px) {
+    .link--title {
+        /* font-family: cursive;
+        font-size: 13px; */
+        display: none;
+    }
+
+    .link--icons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+
+    .link--container {
+        display: flex;
+        gap: 5px;
+        margin-top: -3px;
+        margin-bottom: -5px;
+    }
+
+    .link--image {
+        width: 25px;
+    }
+
+    .link--prop {
+        background: rgb(74, 73, 73);
+        border-radius: 3px;
+        padding: 0px 5px 0px 5px;
+    }
+
+    .link--text {
+        color: rgb(212, 211, 211);
+        font-weight: bold;
+    }
+
+    .link--container {
+        text-decoration: none;
+    }
+
+    /* .fa-discord {
+        color: #5865F2;
+    }
+
+    .fa-facebook-f {
+        color: #3B5998;
+    }
+
+    .fa-github {
+        color: #171515;
+    }
+
+    .fa-twitter {
+        color: #00acee;
+    }
+
+    .fa-whatsapp {
+        color: #25D366;
+    }
+
+    .link-envelope {
+        color: #EA4335;
+    } */
+}
+
+@media screen and (min-width: 501px) and (max-width: 850px) {
+    .link--icons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+
+    .link--container {
+        display: flex;
+        gap: 5px;
+        margin-top: -3px;
+        margin-bottom: -5px;
+    }
+
+    .link--image {
+        width: 15px;
+    }
+
+    .link--prop {
+        background: rgb(74, 73, 73);
+        border-radius: 3px;
+        padding: 0px 5px 0px 5px;
+    }
+
+    .link--text {
+        color: rgb(212, 211, 211);
+        font-weight: bold;
+    }
+
+    .link--container {
+        text-decoration: none;
+    }
+
+    /* .fa-discord {
+        color: #5865F2;
+    }
+
+    .fa-facebook-f {
+        color: #3B5998;
+    }
+
+    .fa-github {
+        color: #171515;
+    }
+
+    .fa-twitter {
+        color: #00acee;
+    }
+
+    .fa-whatsapp {
+        color: #25D366;
+    }
+
+    .link-envelope {
+        color: #EA4335;
+    } */
+}
+
+@media screen and (max-width: 501px) {
+    .link--icons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+
+    .link--container {
+        display: flex;
+        gap: 5px;
+        margin-top: -3px;
+        margin-bottom: -5px;
+        text-decoration: none;
+    }
+
+    .link--prop {
+        background: rgb(74, 73, 73);
+        border-radius: 3px;
+        padding: 0px 5px 0px 5px;
+        height: 25px;
+    }
+
+    .link--text {
+        color: rgb(212, 211, 211);
+        font-weight: bold;
+    }
+
+    .link--image {
+        width: 15px;
+    }
+
+    /* .fa-discord {
+        color: #5865F2;
+    }
+
+    .fa-facebook-f {
+        color: #3B5998;
+    }
+
+    .fa-github {
+        color: #171515;
+    }
+
+    .fa-twitter {
+        color: #00acee;
+    }
+
+    .fa-whatsapp {
+        color: #25D366;
+    }
+
+    .link-envelope {
+        color: #EA4335;
+    } */
+}

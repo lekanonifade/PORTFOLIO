@@ -1,0 +1,75 @@
+@media screen and (min-width: 850px) {
+    .education--section {
+        display: flex;
+        gap: 5rem;
+    }
+
+    .education--container {
+        display: flex;
+        gap: 10px;
+    }
+
+    .education--image {
+        display: none;
+    }
+
+    .education--dot {
+        display: none;
+    }
+
+    .education--title {
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 850px) {
+    .education--image {
+        display: none;
+    }
+
+    .education--title {
+        font-weight: bold;
+    }
+
+    .education--details {
+        display: flex;
+        flex-direction: column;
+        margin-top: -15px;
+        font-size: 9px;
+        color: rgb(148, 145, 145);
+    }
+
+    .education--dot {
+        display: none;
+    }
+
+    .education--duration {
+        margin-top: -5px;
+    }
+}
+
+@media screen and (max-width: 501px) {
+    .education--container {
+        display: flex;
+        gap: 10px;
+    }
+
+    .education--image {
+        width: 45px;
+        height: 45px;
+        margin-bottom: 10px;
+    }
+
+    .education--title {
+        font-weight: bold;
+        margin-top: 5px;
+    }
+
+    .education--details {
+        display: flex;
+        gap: 5px;
+        margin-top: -5px;
+        font-size: 8px;
+        color: rgb(148, 145, 145);
+    }
+}

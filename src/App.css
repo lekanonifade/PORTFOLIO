@@ -1,0 +1,35 @@
+#root {
+  margin: 0 auto;
+}
+
+:root {
+  color: rgba(255, 255, 255, 0.87);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 850px) {
+  .mobile, .tablet {
+    display: none;
+  }
+  :root {
+    background-color: #242424;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 850px) {
+  .mobile, .website {
+    display: none;
+  }
+  :root {
+    background-color: rgb(22, 21, 21);
+  }
+}
+
+@media screen and (max-width: 501px) {
+  .tablet, .website {
+    display: none;
+  }
+  :root {
+    background-color: #242424;
+  }
+}

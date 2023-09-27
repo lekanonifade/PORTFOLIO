@@ -1,0 +1,149 @@
+@media screen and (min-width: 850px) {
+    .references--section {
+        display: flex;
+        gap: 5rem;
+        margin-top: 5rem;
+    }
+
+    .references--render {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .references--container {
+        display: flex;
+        gap: 10px;
+        padding: 12px;
+    }
+
+    .references--prop {
+        background: rgb(74, 73, 73);
+        border-radius: 5px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        height: 6rem;
+    }
+
+    .references--image {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+
+    .references--name {
+        font-weight: bold;
+        margin-top: 7px;
+    }
+
+    .references--link {
+        text-decoration: none;
+        margin-left: 5px;
+        font-weight: normal;
+        color: rgb(148, 145, 145);
+    }
+
+    .references--work {
+        margin-top: 2px;
+    }
+
+    .references--details {
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 850px) {
+    .references--render {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .references--container {
+        display: flex;
+        gap: 5px;
+        padding: 3px;
+    }
+
+    .references--prop {
+        background: rgb(74, 73, 73);
+        border-radius: 5px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);
+        height: 3rem;
+    }
+
+    .references--image {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+
+    .references--name {
+        margin-top: 6px;
+        font-size: 8px;
+        font-weight: bold;
+    }
+
+    .references--link {
+        text-decoration: none;
+        margin-left: 5px;
+        font-weight: normal;
+        color: rgb(148, 145, 145);
+    }
+
+    .references--work {
+        margin-top: 2px;
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 501px) {
+    .references--render {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .references--container {
+        display: flex;
+        gap: 5px;
+        padding: 6px;
+    }
+
+    .references--prop {
+        background: rgb(39, 39, 39);
+        border-radius: 5px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);
+        height: 3rem;
+    }
+
+    .references--image {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    .references--name {
+        margin-top: 3px;
+        font-size: 8px;
+        font-weight: bold;
+    }
+
+    .references--link {
+        text-decoration: none;
+        margin-left: 5px;
+        font-weight: normal;
+        color: rgb(148, 145, 145);
+    }
+
+    .references--work {
+        margin-top: 2px;
+        font-size: 8px;
+    }
+}
