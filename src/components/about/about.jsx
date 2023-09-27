@@ -24,7 +24,7 @@ export default function About() {
                         visually appealing websites. I am well-versed in responsive design, ensuring that the websites I create are
                         optimized for seamless user experiences across different devices. <br /><br />
                         I have experience with popular front-end frameworks like Bootstrap and React, which allow me to build scalable
-                        and dynamic web applications. Additionally, I have a good understanding of back-end technologies such as Node.js
+                        and dynamic web applications. Also, I have a good understanding of back-end technologies such as Node.js
                         and database like MySQL, enabling me to create robust and interactive web solutions. <br /><br />
                         Throughout my journey, I have had the privilege of working on diverse projects that have honed my skills and
                         expanded my knowledge. I have collaborated with clients and teams to create websites that align with their visions
