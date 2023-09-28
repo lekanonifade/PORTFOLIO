@@ -7,7 +7,7 @@ export default [
     {
         linkImage: "../images/link/link-instagram.svg",
         linkText: "Instagram",
-        linkHref: "https://github.com/wildaffod"
+        linkHref: "https://github.com/lekanonifade"
     },
     {
         linkImage: "../images/link/link-linkedin.svg",
@@ -17,12 +17,12 @@ export default [
     {
         linkImage: "../images/link/link-github.svg",
         linkText: "Github",
-        linkHref: "https://github.com/wildaffod"
+        linkHref: "https://github.com/lekanonifade"
     },
     {
         linkImage: "../images/link/link-twitter.svg",
         linkText: "Twitter",
-        linkHref: "https://twitter.com/wildaffod"
+        linkHref: "https://twitter.com/lekanayomikun"
     },
     {
         linkImage: "../images/link/link-whatsapp.svg",
