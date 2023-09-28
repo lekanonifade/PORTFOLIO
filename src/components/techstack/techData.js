@@ -2,7 +2,15 @@ export default [
     {
         techImage: "../images/techstack/tech-node.svg",
         techText: "NodeJS",
-        techYear: ""
+        techYear: "1 Year"
+    },{
+        techImage: "../images/techstack/tech-github.svg",
+        techText: "Github",
+        techYear: "1 Year"
+    },{
+        techImage: "../images/techstack/tech-git.svg",
+        techText: "Git",
+        techYear: "1 Year"
     },
     {
         techImage: "../images/techstack/tech-tailwind.svg",
