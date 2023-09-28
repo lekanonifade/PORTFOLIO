@@ -32,6 +32,6 @@ export default [
     {
         linkImage: "../images/link/link-discord.svg",
         linkText: "Discord",
-        linkHref: ""
+        linkHref: "https://discordapp.com/users/864490727291224074"
     },
 ]
