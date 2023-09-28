@@ -1,18 +1,13 @@
 export default [
     {
-        linkImage: "../images/link/link-discord.svg",
-        linkText: "Discord",
-        linkHref: ""
-    },
-    {
-        linkImage: "../images/link/link-instagram.svg",
-        linkText: "Instagram",
-        linkHref: "https://github.com/lekanonifade"
+        linkImage: "../images/link/link-gmail.svg",
+        linkText: "Gmail",
+        linkHref: "mailto:ayomikunolamilekan@gmail.com"
     },
     {
         linkImage: "../images/link/link-linkedin.svg",
         linkText: "LinkedIn",
-        linkHref: "https://github.com/wildaffod"
+        linkHref: "https://www.linkedin.com/in/olamilekan-o-294412b7/"
     },
     {
         linkImage: "../images/link/link-github.svg",
@@ -30,8 +25,13 @@ export default [
         linkHref: "https://wa.me/2348034332268"
     },
     {
-        linkImage: "../images/link/link-gmail.svg",
-        linkText: "Gmail",
-        linkHref: "mailto:ayomikunolamilekan@gmail.com"
-    }
+        linkImage: "../images/link/link-instagram.svg",
+        linkText: "Instagram",
+        linkHref: "https://instagram.com/lekanonifade"
+    },
+    {
+        linkImage: "../images/link/link-discord.svg",
+        linkText: "Discord",
+        linkHref: ""
+    },
 ]
