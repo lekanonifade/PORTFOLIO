@@ -53,7 +53,7 @@ export default [
                 "Internship Experience: Real-world exposure at FBIS Technologies, applying theoretical knowledge professionally.",
                 "Digital Age Readiness: Prepared to navigate the digital age confidently, understanding technological advancements and their implications.",
                 "Programming Language Proficiency: Proficient in Java, Python, and MySQL, essential for effective data handling and database management.",
-                "Collaborative Teamwork: Successfully collaborated on a group project, creating an AI simulation car using Python and NEAT, emphasizing effective teamwork and goal achievement.",
+                "Collaborative Teamwork: I effectively contributed to a group project where we designed a user-friendly Java application to automate MTN data bundle purchases, highlighting my ability to work well in diverse teams and my dedication to creative problem-solving. Additionally, in a separate team project, I played a key role in developing an AI simulation car using Python and NEAT, demonstrating strong teamwork and the successful attainment of our objectives.",
                 "Web and App Development Skills: Equipped with skills to create user-friendly websites and applications, with a solid foundation in web development."
             ],
             techstack: [
