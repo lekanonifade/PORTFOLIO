@@ -49,7 +49,7 @@ export default [
             experienceNote: "During my Computer Engineering studies at OOU, I gained valuable knowledge and skills that shaped my career. Here's what I learned:",
             experienceUl: [
                 "Programming Languages: Proficiency in Java and Python, essential for my work.",
-                "Hands-on Project: Developed an AI car simulation using Python and NEAT library, showcasing innovative programming skills.",
+                "Hands-on Project: Developed a Java application to clone and automate the purchase of MTN data bundles, providing a convenient and user-friendly solution for customers. Additionally, created an AI car simulation using Python and the NEAT library, demonstrating innovative programming skills.",
                 "Internship Experience: Real-world exposure at FBIS Technologies, applying theoretical knowledge professionally.",
                 "Digital Age Readiness: Prepared to navigate the digital age confidently, understanding technological advancements and their implications.",
                 "Programming Language Proficiency: Proficient in Java, Python, and MySQL, essential for effective data handling and database management.",
