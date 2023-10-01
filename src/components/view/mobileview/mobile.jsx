@@ -7,6 +7,7 @@ import References from "../../references/references";
 import Techstack from "../../techstack/tech";
 import Experience from "../../experience/experience";
 import Education from "../../education/education";
+import Projects from "../../projects/projects";
 
 export default function Mobile() {
     return (
@@ -18,6 +19,7 @@ export default function Mobile() {
             <Techstack />
             <Experience />
             <Education />
+            <Projects />
         </div>
     )
 }

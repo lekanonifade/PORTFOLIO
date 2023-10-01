@@ -9,6 +9,7 @@ import About from "../../about/about";
 import Experience from "../../experience/experience";
 import Link from "../../links/link";
 import References from "../../references/references";
+import Projects from "../../projects/projects";
 
 export default function Tablet() {
     return (
@@ -24,6 +25,7 @@ export default function Tablet() {
                 <About />
                 <Experience />
                 <Link />
+                <Projects />
                 <References />
             </div>
         </div>
