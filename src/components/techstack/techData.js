@@ -35,6 +35,11 @@ export default [
         techYear: "1 Year"
     },
     {
+        techImage: "../images/techstack/tech-netlify.svg",
+        techText: "Netlify",
+        techYear: "1 Year"
+    },
+    {
         techImage: "../images/techstack/tech-figma.svg",
         techText: "Figma",
         techYear: "2 Years"
