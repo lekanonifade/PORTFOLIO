@@ -1,1 +1,48 @@
-@media screen and (min-width: 850px) {}
+@media screen and (min-width: 850px) {
+    .projects--section {
+        padding-top: 40px;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .carousel--container {
+        padding: 0px 30px 0px 30px;
+    }
+
+    .carousel--about {
+        display: flex;
+        justify-content: space-between;
+        margin-top: -4rem;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .carousel--link {
+        display: flex;
+        gap: 10px;
+    }
+
+    .carousel--details {
+        display: flex;
+        gap: 10px;
+    }
+
+    .carousel--text {
+        background: rgb(74, 73, 73);
+        padding: 10px 20px;
+    }
+
+    .carousel--text--link {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 850px) {}
+
+@media screen and (max-width: 501px) {}
+
+.thumbs-wrapper,
+.carousel-status {
+    display: none;
+}
