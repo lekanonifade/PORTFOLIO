@@ -6,7 +6,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 export default function Projects() {
     return (
         <div className="section projects--section">
-            <p className="title projects--title web--title">Projects</p>
+            <p className="title projects--title web--title sudo--title--main">Projects</p>
             <div className="projects--container">
                 <div className="projects--carousel--container">
                     <Carousel>
@@ -92,13 +92,40 @@ export default function Projects() {
                         </div>
                     </Carousel>
                 </div>
-
-                <div className="projects--tablet--container">
-
-                </div>
-
-                <div className="projects--mobile--container">
-
+                <div className="projects--tab">
+                    <div className="projects--tab--container">
+                        <img src="/images/projects/luvianka.png" alt="" className="projects--image" />
+                        <div className="projects--details">
+                            <p className="projects--header">LUVIANKA</p>
+                            <div className="projects--link">
+                                <a href="https://luvianka.netlify.app/" className="projects--link--text">@DEMO</a>
+                                <a href="https://github.com/lekanonifade/LUVIANKA" className="projects--link--text">@CODE</a>
+                            </div>
+                            <p className="projects--about">LG | MD | SM</p>
+                        </div>
+                    </div>
+                    <div className="projects--tab--container">
+                        <img src="/images/projects/eprenz.png" alt="" className="projects--image" />
+                        <div className="projects--details">
+                            <p className="projects--header">EPRENZ</p>
+                            <div className="projects--link">
+                                <a href="https://eprenz.netlify.app/" className="projects--link--text">@DEMO</a>
+                                <a href="https://github.com/lekanonifade/EPRENZ" className="projects--link--text">@CODE</a>
+                            </div>
+                            <p className="projects--about">LG | MD | SM</p>
+                        </div>
+                    </div>
+                    <div className="projects--tab--container">
+                        <img src="/images/projects/covenant.png" alt="" className="projects--image" />
+                        <div className="projects--details">
+                            <p className="projects--header">ADEJARE</p>
+                            <div className="projects--link">
+                                <a href="https://adejare.netlify.app/" className="projects--link--text">@DEMO</a>
+                                <a href="https://github.com/lekanonifade/COVENANT" className="projects--link--text">@CODE</a>
+                            </div>
+                            <p className="projects--about">LG | MD | SM</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

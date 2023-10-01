@@ -43,21 +43,118 @@
         transition: .5s;
     }
 
-    .projects--tablet--container, .projects--mobile--container {
+    .projects--tab {
         display: none;
     }
 }
 
 @media screen and (min-width: 501px) and (max-width: 850px) {
-    .projects--carousel--container, .projects--mobile--container {
+    .projects--carousel--container {
         display: none;
     }
+
+    .projects--tab {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .projects--tab--container {
+        display: flex;
+        gap: 10px;
+        background: rgb(74, 73, 73);
+        border-radius: 5px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+    }
+
+    .projects--image {
+        width: 150px;
+        height: 100px;
+    }
+
+    .projects--details {
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+
+    .projects--header {
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 0px;
+    }
+
+    .projects--link {
+        display: flex;
+        gap: 10px;
+        font-size: 15px;
+        flex-wrap: wrap;
+    }
+
+    .projects--link--text {
+        text-decoration: none;
+        color: rgb(148, 145, 145);
+    }
+
+    .projects--about {
+        font-size: 10px;
+    }  
 }
 
 @media screen and (max-width: 501px) {
-    .projects--carousel--container, .projects--tablet--container {
+    .projects--carousel--container {
         display: none;
     }
+
+    .projects--tab {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .projects--tab--container {
+        display: flex;
+        gap: 10px;
+        background: rgb(74, 73, 73);
+        border-radius: 5px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+    }
+
+    .projects--image {
+        width: 150px;
+        height: 100px;
+    }
+
+    .projects--details {
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+    }
+
+    .projects--header {
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 0px;
+    }
+
+    .projects--link {
+        display: flex;
+        gap: 10px;
+        font-size: 15px;
+        flex-wrap: wrap;
+    }
+
+    .projects--link--text {
+        text-decoration: none;
+        color: rgb(148, 145, 145);
+    }
+
+    .projects--about {
+        font-size: 10px;
+    }  
 }
 
 .thumbs-wrapper,

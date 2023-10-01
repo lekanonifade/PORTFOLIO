@@ -20,7 +20,7 @@ export default function Introduction() {
             <img src="lekan.png" className="intro--image" />
             <div className="real">
                 <h1 className="introduction--name">Onifade Olamilekan</h1>
-                <p className="introduction--work typewriter">Frontend Developer ⎜ Cybersecurity 💜</p>
+                <p className="introduction--work typewriter">Frontend Developer 💜</p>
                 <div className="introduction--icons">
                     {myIntroduction}
                 </div>
