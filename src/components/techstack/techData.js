@@ -2,7 +2,7 @@ export default [
     {
         techImage: "../images/techstack/tech-node.svg",
         techText: "NodeJS",
-        techYear: "1 Year"
+        techYear: ""
     },
     {
         techImage: "../images/techstack/tech-github.svg",
@@ -16,7 +16,7 @@ export default [
     },
     {
         techImage: "../images/techstack/tech-tailwind.svg",
-        techText: "Tailwind",
+        techText: "Tailwind CSS",
         techYear: "1 Year"
     },
     {
@@ -35,6 +35,11 @@ export default [
         techYear: "1 Year"
     },
     {
+        techImage: "../images/techstack/tech-figma.svg",
+        techText: "Figma",
+        techYear: "2 Years"
+    },
+    {
         techImage: "../images/techstack/tech-javascript.svg",
         techText: "JavaScript",
         techYear: "2 Years"
@@ -46,7 +51,7 @@ export default [
     },
     {
         techImage: "../images/techstack/tech-html.svg",
-        techText: "HTML",
+        techText: "HTML5",
         techYear: "2 Years"
     },
     {
