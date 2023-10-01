@@ -13,8 +13,8 @@ export default function Projects() {
                         <img src="/images/projects/luvianka.png" alt="Slide 1" className="" />
                         <div className="carousel--about">
                             <div className="carousel--link">
-                                <p className="carousel--text"><a href="" className="carousel--text--link">DEMO</a></p>
-                                <p className="carousel--text"><a href="" className="carousel--text--link">CODE</a></p>
+                                <p className="carousel--text"><a href="https://luvianka.netlify.app/" className="carousel--text--link">DEMO</a></p>
+                                <p className="carousel--text"><a href="https://github.com/lekanonifade/LUVIANKA" className="carousel--text--link">CODE</a></p>
                             </div>
                             <div className="carousel--details">
                                 <p className="carousel--text">LG</p>
@@ -27,8 +27,8 @@ export default function Projects() {
                         <img src="/images/projects/airplay.png" alt="Slide 2" className="" />
                         <div className="carousel--about">
                             <div className="carousel--link">
-                                <p className="carousel--text"><a href="" className="carousel--text--link">DEMO</a></p>
-                                <p className="carousel--text"><a href="" className="carousel--text--link">CODE</a></p>
+                                <p className="carousel--text"><a href="https://aaairplay.netlify.app/" className="carousel--text--link">DEMO</a></p>
+                                <p className="carousel--text"><a href="https://github.com/lekanonifade/AIRPLAY" className="carousel--text--link">CODE</a></p>
                             </div>
                             <div className="carousel--details">
                                 <p className="carousel--text">LG</p>
@@ -39,8 +39,8 @@ export default function Projects() {
                         <img src="/images/projects/covenant.png" alt="Slide 3" className="" />
                         <div className="carousel--about">
                             <div className="carousel--link">
-                                <p className="carousel--text"><a href="" className="carousel--text--link">DEMO</a></p>
-                                <p className="carousel--text"><a href="" className="carousel--text--link">CODE</a></p>
+                                <p className="carousel--text"><a href="https://adejare.netlify.app/" className="carousel--text--link">DEMO</a></p>
+                                <p className="carousel--text"><a href="https://github.com/lekanonifade/COVENANT" className="carousel--text--link">CODE</a></p>
                             </div>
                             <div className="carousel--details">
                                 <p className="carousel--text">LG</p>
@@ -53,8 +53,8 @@ export default function Projects() {
                         <img src="/images/projects/rio.png" alt="Slide 4" className="" />
                         <div className="carousel--about">
                             <div className="carousel--link">
-                                <p className="carousel--text"><a href="" className="carousel--text--link">DEMO</a></p>
-                                <p className="carousel--text"><a href="" className="carousel--text--link">CODE</a></p>
+                                <p className="carousel--text"><a href="https://rio-app.netlify.app/" className="carousel--text--link">DEMO</a></p>
+                                <p className="carousel--text"><a href="https://github.com/lekanonifade/RIO" className="carousel--text--link">CODE</a></p>
                             </div>
                             <div className="carousel--details">
                                 <p className="carousel--text">LG</p>
@@ -65,8 +65,8 @@ export default function Projects() {
                         <img src="/images/projects/eprenz.png" alt="Slide 5" className="" />
                         <div className="carousel--about">
                             <div className="carousel--link">
-                                <p className="carousel--text"><a href="" className="carousel--text--link">DEMO</a></p>
-                                <p className="carousel--text"><a href="" className="carousel--text--link">CODE</a></p>
+                                <p className="carousel--text"><a href="https://eprenz.netlify.app/" className="carousel--text--link">DEMO</a></p>
+                                <p className="carousel--text"><a href="https://github.com/lekanonifade/EPRENZ" className="carousel--text--link">CODE</a></p>
                             </div>
                             <div className="carousel--details">
                                 <p className="carousel--text">LG</p>
@@ -79,8 +79,8 @@ export default function Projects() {
                         <img src="/images/projects/myportfolio.png" alt="Slide 6" className="" />
                         <div className="carousel--about">
                             <div className="carousel--link">
-                                <p className="carousel--text"><a href="" className="carousel--text--link">DEMO</a></p>
-                                <p className="carousel--text"><a href="" className="carousel--text--link">CODE</a></p>
+                                <p className="carousel--text"><a href="https://lekanonifade.netlify.app/" className="carousel--text--link">DEMO</a></p>
+                                <p className="carousel--text"><a href="https://github.com/lekanonifade/PORTFOLIO" className="carousel--text--link">CODE</a></p>
                             </div>
                             <div className="carousel--details">
                                 <p className="carousel--text">LG</p>

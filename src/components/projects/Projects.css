@@ -37,6 +37,11 @@
         text-decoration: none;
         color: #fff;
     }
+
+    .carousel--text--link:hover {
+        color: #ff4655;
+        transition: .5s;
+    }
 }
 
 @media screen and (min-width: 501px) and (max-width: 850px) {}
