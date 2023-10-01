@@ -45,10 +45,10 @@ export default function Website() {
                         i am a
                         <div class="web--intro--about">
                             <span>
+                                developer<br />
                                 programmer<br />
-                                designer<br />
-                                creator<br />
-                                freelancer
+                                freelancer<br />
+                                creator
                             </span>
                         </div>
                     </h3>
