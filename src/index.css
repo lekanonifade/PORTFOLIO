@@ -69,7 +69,7 @@ html {
         appearance: none;
         border: none;
         background: none;
-        color: #0f1923;
+        color: rgb(74, 73, 73);
         cursor: pointer;
         position: relative;
         padding: 8px;
@@ -126,7 +126,7 @@ html {
         display: block;
         padding: 10px 20px;
         color: #fff;
-        background-color: #0f1923;
+        background-color: rgb(74, 73, 73);
         overflow: hidden;
         box-shadow: inset 0px 0px 0px 1px transparent;
     }
@@ -139,7 +139,7 @@ html {
         left: 0;
         width: 2px;
         height: 2px;
-        background-color: #0f1923;
+        background-color: rgb(74, 73, 73);
     }
 
     .button_lg::after {
@@ -150,7 +150,7 @@ html {
         bottom: 0;
         width: 4px;
         height: 4px;
-        background-color: #0f1923;
+        background-color: #000;
         transition: all .2s ease;
     }
 
@@ -180,5 +180,9 @@ html {
 
     .button:hover .button_lg::after {
         background-color: #fff;
+    }
+
+    .inputsubmit {
+        display: none;
     }
 }

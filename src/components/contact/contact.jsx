@@ -10,26 +10,32 @@ export default function Contact() {
                     <p>I am open to talk regarding freelancing or full-time opportunities. Fell free to contact me using your preferred medium.</p>
                     <Link />
                 </div>
-                <div className="send--message">
-                    <label class="inputBox">
-                        <input placeholder="Write here..." id="name" type="name" required="" />
+                <form action="mailto:ayomikunolamilekan@gmail.com" method="post" enctype="text/plain" className="send--message">
+
+                    <label for="name" class="inputBox">
+                        <input placeholder="Write here..." type="text" id="name" name="Name" required />
                         <span>Name :</span>
                     </label>
-                    <div class="inputBox">
-                        <input placeholder="Write here..." id="email" type="email" required="" />
+
+                    <label for="email" class="inputBox">
+                        <input placeholder="Write here..." type="email" id="email" name="Email" required />
                         <span>Email :</span>
-                    </div>
-                    <div class="inputBox">
-                        <textarea placeholder="Write here..." type="text" required="" className="message--box" />
+                    </label>
+
+                    <label for="message" class="inputBox">
+                        <textarea placeholder="Write here..." type="message" id="message" name="Message" className="message--box" required />
                         <span>Message :</span>
-                    </div>
-                    <button class="button">
-                        <span class="button_lg">
-                            <span class="button_sl"></span>
-                            <span class="button_text">Submit</span>
+                    </label>
+
+                    <button className="button">
+                        <span className="button_lg">
+                            <input type="submit" className="inputsubmit"/>
+                            <span className="button_sl"></span>
+                            <span className="button_text">SUBMIT</span>
                         </span>
                     </button>
-                </div>
+                    
+                </form>
             </div>
         </div>
     )
