@@ -1,11 +1,86 @@
 @media screen and (min-width: 850px) {
     .services--section {
-        background: #161415 url(/images/services.jpg) no-repeat top center;
-        background-size: cover !important;
-        -webkit-background-size: cover !important;
-        overflow: hidden;
-        background-attachment: fixed;
-        height: 100vh;
         padding-top: 40px;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 5rem;
+    }
+
+    .services--grid {
+        display: -webkit-box;
+        display: flex;
+        gap: 20px;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+
+    .services {
+        background: rgb(74, 73, 73);
+        border-radius: 4px;
+        text-align: center;
+        -webkit-box-flex: 1;
+        flex: 1;
+        display: -webkit-box;
+        display: flex;
+        flex-wrap: wrap;
+        border: 2px solid #000;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .services:hover {
+        -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+        -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    .services i {
+        font-size: 3.45rem;
+        margin: 1rem 0;
+    }
+
+    .first--service i,
+    .first--service h4,
+    .first--service .cta {
+        color: #42b7ca;
+    }
+
+    .first--service:hover {
+        border: 2px solid #42b7ca;
+    }
+
+    .second--service i,
+    .second--service h4,
+    .second--service .cta {
+        color: #425fca;
+    }
+
+    .second--service:hover {
+        border: 2px solid #425fca;
+    }
+
+    .third--service i,
+    .third--service h4,
+    .third--service .cta {
+        color: #9c42ca;
+    }
+
+    .third--service:hover {
+        border: 2px solid #9c42ca;
+    }
+
+    .services>* {
+        flex: 1 1 100%;
+    }
+
+    @media all and (max-width:850px) {
+        .services--grid {
+            display: -webkit-box;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            flex-direction: column;
+        }
     }
 }
