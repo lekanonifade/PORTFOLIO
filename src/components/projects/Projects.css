@@ -117,7 +117,7 @@
     .projects--tab--container {
         display: flex;
         gap: 10px;
-        background: rgb(74, 73, 73);
+        background: rgb(39, 39, 39);
         border-radius: 5px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         padding: 10px;
