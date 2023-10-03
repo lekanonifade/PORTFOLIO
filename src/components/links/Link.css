@@ -32,35 +32,13 @@
     .link--text {
         color: rgb(212, 211, 211);
         font-weight: bold;
-    }
-
-    .link--container {
         text-decoration: none;
     }
 
-    /* .fa-discord {
-        color: #5865F2;
+    .link--text:hover {
+        color: #ff4655;
+        transition: .5s;
     }
-
-    .fa-facebook-f {
-        color: #3B5998;
-    }
-
-    .fa-github {
-        color: #171515;
-    }
-
-    .fa-twitter {
-        color: #00acee;
-    }
-
-    .fa-whatsapp {
-        color: #25D366;
-    }
-
-    .link-envelope {
-        color: #EA4335;
-    } */
 }
 
 @media screen and (min-width: 501px) and (max-width: 850px) {
@@ -91,35 +69,13 @@
     .link--text {
         color: rgb(212, 211, 211);
         font-weight: bold;
-    }
-
-    .link--container {
         text-decoration: none;
     }
 
-    /* .fa-discord {
-        color: #5865F2;
+    .link--text:hover {
+        color: #ff4655;
+        transition: .5s;
     }
-
-    .fa-facebook-f {
-        color: #3B5998;
-    }
-
-    .fa-github {
-        color: #171515;
-    }
-
-    .fa-twitter {
-        color: #00acee;
-    }
-
-    .fa-whatsapp {
-        color: #25D366;
-    }
-
-    .link-envelope {
-        color: #EA4335;
-    } */
 }
 
 @media screen and (max-width: 501px) {
@@ -148,33 +104,15 @@
     .link--text {
         color: rgb(212, 211, 211);
         font-weight: bold;
+        text-decoration: none;
+    }
+
+    .link--text:hover {
+        color: #ff4655;
+        transition: .5s;
     }
 
     .link--image {
         width: 15px;
     }
-
-    /* .fa-discord {
-        color: #5865F2;
-    }
-
-    .fa-facebook-f {
-        color: #3B5998;
-    }
-
-    .fa-github {
-        color: #171515;
-    }
-
-    .fa-twitter {
-        color: #00acee;
-    }
-
-    .fa-whatsapp {
-        color: #25D366;
-    }
-
-    .link-envelope {
-        color: #EA4335;
-    } */
 }
