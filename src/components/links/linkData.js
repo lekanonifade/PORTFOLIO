@@ -7,7 +7,7 @@ export default [
     {
         linkImage: "../images/link/link-linkedin.svg",
         linkText: "LinkedIn",
-        linkHref: "https://www.linkedin.com/in/olamilekan-o-294412b7/"
+        linkHref: "https://www.linkedin.com/in/lekanonifade/"
     },
     {
         linkImage: "../images/link/link-github.svg",

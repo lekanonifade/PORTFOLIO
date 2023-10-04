@@ -55,9 +55,9 @@ export default function Website() {
                     <hr className="line" />
                     <div className="getintouch">
                         <a href="mailto:ayomikunolamilekan@gmail.com"><FontAwesomeIcon icon={faEnvelope} className="home--touch" /></a>
-                        <a href="https://www.linkedin.com/in/olamilekan-o-294412b7/"><FontAwesomeIcon icon={faLinkedin} className="home--touch" /></a>
-                        <a href="https://twitter.com/wildaffod"><FontAwesomeIcon icon={faTwitter} className="home--touch" /></a>
-                        <a href="https://github.com/wildaffod"><FontAwesomeIcon icon={faGithub} className="home--touch" /></a>
+                        <a href="https://www.linkedin.com/in/lekanonifade/"><FontAwesomeIcon icon={faLinkedin} className="home--touch" /></a>
+                        <a href="https://twitter.com/lekanayomikun"><FontAwesomeIcon icon={faTwitter} className="home--touch" /></a>
+                        <a href="https://github.com/lekanonifade"><FontAwesomeIcon icon={faGithub} className="home--touch" /></a>
                     </div>
                 </div>
             </div>
