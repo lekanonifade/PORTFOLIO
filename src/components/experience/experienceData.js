@@ -31,7 +31,7 @@ export default [
                 },
                 {
                     experienceTechImage: "../images/techstack/tech-html.svg",
-                    experienceTechTitle: "HTML"
+                    experienceTechTitle: "HTML5"
                 }
             ]
         }

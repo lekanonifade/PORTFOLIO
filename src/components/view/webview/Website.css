@@ -270,6 +270,22 @@
         border: none;
         margin-top: -10px;
     }
+
+    .resume--section a {
+        display: grid;
+        place-items: center;
+    }
+
+    .resume--icon {
+        font-size: 25px;
+        color: white;
+        margin-bottom: 40px;
+    }
+
+    .resume--icon:hover {
+        color: #ff4655;
+        transition: .5s;
+    }
 }
 
 .pyramid-loader {

@@ -9,7 +9,7 @@ import Projects from "../../projects/projects";
 import Services from "../../services/services";
 import Contact from "../../contact/contact";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAddressCard, faAngleUp, faBriefcase, faEnvelope, faFileLines, faGear, faHome, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faAddressCard, faAngleUp, faBriefcase, faClipboard, faEnvelope, faFileLines, faGear, faHome, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 export default function Website() {
@@ -64,6 +64,7 @@ export default function Website() {
             <div id="about"><About /></div>
             <div className="section resume--section" id="resume">
                 <p className="title web--title">Resume</p>
+                <a href="/Resume.pdf"><FontAwesomeIcon icon={faClipboard} className="resume--icon" /></a>
                 <Education />
                 <Experience />
                 <Techstack />
