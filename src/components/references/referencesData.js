@@ -23,7 +23,7 @@ export default [
     {
         referencesImage: "../images/references/references-emeka.jpg",
         referencesName: "Ashimole Emeka",
-        referencesHref: "",
+        referencesHref: "https://www.linkedin.com/in/chukwuemeka-ashimole/",
         referencesLink: "@thomashimole",
         referencesWork: "Full-Stack Developer"
     }
