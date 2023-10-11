@@ -16,7 +16,7 @@ export default function About() {
                         dedicated myself to mastering the art of web design and development. Through this portfolio, I aim to showcase
                         my expertise, creativity, and dedication to delivering exceptional digital experiences. <br /><br />
                         I have always been fascinated by the digital realm, and my journey in web development began during my late years
-                        in University. Since then, I have pursued my passion by acquiring a solid educational foundation. I hold a BSc
+                        in University. Since then, I have pursued my passion by acquiring a solid educational foundation. I hold a Bachelor of Engineering
                         in Computer Engineering from Olabisi Onabanjo University. My academic journey has equipped me with a strong
                         understanding of the principles of web development, including HTML, CSS, JavaScript, and various frameworks. <br /><br />
                         I possess a diverse skill set that enables me to tackle various aspects of web development. Proficient in
