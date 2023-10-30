@@ -90,6 +90,20 @@ export default function Projects() {
                                 </div>
                             </div>
                         </div>
+                        <div className="carousel--container">
+                            <img src="/images/projects/topset.png" alt="Slide 7" className="" />
+                            <div className="carousel--about">
+                                <div className="carousel--link">
+                                    <p className="carousel--text"><a href="https://topset.netlify.app/" className="carousel--text--link">DEMO</a></p>
+                                    <p className="carousel--text"><a href="https://github.com/lekanonifade/TOPSET" className="carousel--text--link">CODE</a></p>
+                                </div>
+                                <div className="carousel--details">
+                                    <p className="carousel--text">LG</p>
+                                    <p className="carousel--text">MD</p>
+                                    <p className="carousel--text">SM</p>
+                                </div>
+                            </div>
+                        </div>
                     </Carousel>
                 </div>
                 <div className="projects--tab">
