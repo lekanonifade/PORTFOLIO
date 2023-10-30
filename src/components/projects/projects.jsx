@@ -140,6 +140,17 @@ export default function Projects() {
                             <p className="projects--about">LG | MD | SM</p>
                         </div>
                     </div>
+                    <div className="projects--tab--container">
+                        <img src="/images/projects/topset.png" alt="" className="projects--image" />
+                        <div className="projects--details">
+                            <p className="projects--header">TOPSET</p>
+                            <div className="projects--link">
+                                <a href="https://topset.netlify.app/" className="projects--link--text">@DEMO</a>
+                                <a href="https://github.com/lekanonifade/TOPSET" className="projects--link--text">@CODE</a>
+                            </div>
+                            <p className="projects--about">LG | MD | SM</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
