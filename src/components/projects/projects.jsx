@@ -112,8 +112,8 @@ export default function Projects() {
                         <div className="projects--details">
                             <p className="projects--header">LUVIANKA</p>
                             <div className="projects--link">
-                                <a href="https://luvianka.netlify.app/" className="projects--link--text">@DEMO</a>
-                                <a href="https://github.com/lekanonifade/LUVIANKA" className="projects--link--text">@CODE</a>
+                                <a href="https://luvianka.netlify.app/" className="projects--link--text">DEMO</a>
+                                <a href="https://github.com/lekanonifade/LUVIANKA" className="projects--link--text">CODE</a>
                             </div>
                             <p className="projects--about">LG | MD | SM</p>
                         </div>
@@ -123,8 +123,8 @@ export default function Projects() {
                         <div className="projects--details">
                             <p className="projects--header">EPRENZ</p>
                             <div className="projects--link">
-                                <a href="https://eprenz.netlify.app/" className="projects--link--text">@DEMO</a>
-                                <a href="https://github.com/lekanonifade/EPRENZ" className="projects--link--text">@CODE</a>
+                                <a href="https://eprenz.netlify.app/" className="projects--link--text">DEMO</a>
+                                <a href="https://github.com/lekanonifade/EPRENZ" className="projects--link--text">CODE</a>
                             </div>
                             <p className="projects--about">LG | MD | SM</p>
                         </div>
@@ -134,8 +134,8 @@ export default function Projects() {
                         <div className="projects--details">
                             <p className="projects--header">ADEJARE</p>
                             <div className="projects--link">
-                                <a href="https://adejare.netlify.app/" className="projects--link--text">@DEMO</a>
-                                <a href="https://github.com/lekanonifade/COVENANT" className="projects--link--text">@CODE</a>
+                                <a href="https://adejare.netlify.app/" className="projects--link--text">DEMO</a>
+                                <a href="https://github.com/lekanonifade/COVENANT" className="projects--link--text">CODE</a>
                             </div>
                             <p className="projects--about">LG | MD | SM</p>
                         </div>
@@ -145,8 +145,8 @@ export default function Projects() {
                         <div className="projects--details">
                             <p className="projects--header">TOPSET</p>
                             <div className="projects--link">
-                                <a href="https://topset.netlify.app/" className="projects--link--text">@DEMO</a>
-                                <a href="https://github.com/lekanonifade/TOPSET" className="projects--link--text">@CODE</a>
+                                <a href="https://topset.netlify.app/" className="projects--link--text">DEMO</a>
+                                <a href="https://github.com/lekanonifade/TOPSET" className="projects--link--text">CODE</a>
                             </div>
                             <p className="projects--about">LG | MD | SM</p>
                         </div>

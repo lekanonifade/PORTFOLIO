@@ -1,5 +1,12 @@
 export default [
     {
+        referencesImage: "../images/references/references-emeka.jpg",
+        referencesName: "Ashimole Emeka",
+        referencesHref: "https://www.linkedin.com/in/chukwuemeka-ashimole/",
+        referencesLink: "@thomashimole",
+        referencesWork: "Full-Stack Developer"
+    },
+    {
         referencesImage: "../images/references/references-michael.jpeg",
         referencesName: "Adewole Michael",
         referencesHref: "https://www.michaseyi.tech",
@@ -20,11 +27,4 @@ export default [
         referencesLink: "@pscon",
         referencesWork: "Front-end Developer"
     },
-    {
-        referencesImage: "../images/references/references-emeka.jpg",
-        referencesName: "Ashimole Emeka",
-        referencesHref: "https://www.linkedin.com/in/chukwuemeka-ashimole/",
-        referencesLink: "@thomashimole",
-        referencesWork: "Full-Stack Developer"
-    }
 ]

@@ -62,7 +62,7 @@
     .projects--tab--container {
         display: flex;
         gap: 10px;
-        background: rgb(74, 73, 73);
+        background: rgb(39, 39, 39);
         border-radius: 5px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         padding: 10px;
@@ -82,7 +82,7 @@
     .projects--header {
         font-size: 15px;
         font-weight: bold;
-        margin-top: 0px;
+        margin-top: 10px;
     }
 
     .projects--link {
@@ -94,7 +94,10 @@
 
     .projects--link--text {
         text-decoration: none;
-        color: rgb(148, 145, 145);
+        color: rgb(188, 188, 188);
+        background-color: rgb(74, 73, 73);
+        padding: 5px 10px 5px 10px;
+        border-radius: 5px;
     }
 
     .projects--about {
@@ -137,7 +140,7 @@
     .projects--header {
         font-size: 15px;
         font-weight: bold;
-        margin-top: 0px;
+        margin-top: 10px;
     }
 
     .projects--link {
@@ -149,7 +152,10 @@
 
     .projects--link--text {
         text-decoration: none;
-        color: rgb(148, 145, 145);
+        color: rgb(188, 188, 188);
+        background-color: rgb(74, 73, 73);
+        padding: 5px 10px 5px 10px;
+        border-radius: 5px;
     }
 
     .projects--about {
