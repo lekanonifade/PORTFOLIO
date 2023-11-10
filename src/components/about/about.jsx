@@ -10,7 +10,7 @@ export default function About() {
                     <img src="lekan.png" className="about--image" />
                 </div>
                 <div>
-                    <p className="about--note">
+                    <p className="about--note about--note--lg">
                         Welcome to my webpage portfolio. I am excited to share with you my journey, skills, and accomplishments in the
                         world of web development. With a passion for creating visually appealing and user-friendly websites, I have
                         dedicated myself to mastering the art of web design and development. Through this portfolio, I aim to showcase
@@ -30,6 +30,14 @@ export default function About() {
                         expanded my knowledge. I have collaborated with clients and teams to create websites that align with their visions
                         and goals. This experience has taught me the importance of effective communication, project management, and
                         delivering results that exceed expectations.
+                    </p>
+                    <p className="about--note about--note--md">
+                        Welcome to my web portfolio! I'm passionate about web development, holding a Bachelor's in Computer Engineering.
+                        Proficient in HTML, CSS, and JavaScript, I create visually appealing and user-friendly websites with a focus on responsive design.
+                        Experienced in Bootstrap and React for dynamic applications, I navigate back-end technologies like Node.js and MySQL.
+                        My diverse skill set enables me to transform design concepts into functional websites.
+                        Throughout my journey, diverse projects have honed my skills, emphasizing effective communication, project management, and consistently exceeding expectations.
+                        Explore my portfolio to witness my commitment to exceptional digital experiences.
                     </p>
                 </div>
             </div>

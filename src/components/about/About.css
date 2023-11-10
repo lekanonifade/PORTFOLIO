@@ -20,6 +20,10 @@
     font-size: 15px;
   }
 
+  .about--note--md {
+    display: none;
+  }
+
   .img-container {
     position: relative;
     transform-origin: center -15%;
@@ -67,13 +71,13 @@
 }
 
 @media screen and (min-width: 501px) and (max-width: 850px) {
-  .about--image {
+  .about--image, .about--note--lg {
     display: none;
   }
 }
 
 @media screen and (max-width: 501px) {
-  .about--image {
+  .about--image, .about--note--lg {
     display: none;
   }
 }
