@@ -4,7 +4,7 @@ export default function Techprop(props) {
             <img src={props.techImage} className="tech--image" />
             <div className="tech--details">
                 <p className="tech--word">{props.techText}</p>
-                <p className="tech--details--span">{props.techYear}</p>
+                {/* <p className="tech--details--span">{props.techYear}</p> */}
             </div>
         </div>
     )

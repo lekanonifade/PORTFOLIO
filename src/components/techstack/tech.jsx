@@ -10,7 +10,7 @@ export default function Techstack() {
                 <Techprop
                     techImage={item.techImage}
                     techText={item.techText}
-                    techYear={item.techYear}
+                    // techYear={item.techYear}
                 />
             </div>
         )
