@@ -65,7 +65,7 @@
         background: rgb(39, 39, 39);
         border-radius: 5px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        padding: 10px;
+        padding: 5px 10px 5px 10px;
     }
 
     .projects--image {
@@ -102,7 +102,14 @@
 
     .projects--about {
         font-size: 10px;
+        text-align: center;
+        font-weight: bold;
     }  
+
+    .projects--left--container {
+        display: flex;
+        flex-direction: column;
+    } 
 }
 
 @media screen and (max-width: 501px) {
@@ -121,9 +128,10 @@
         display: flex;
         gap: 10px;
         background: rgb(39, 39, 39);
+        /* background: rgb(149, 148, 148); */
         border-radius: 5px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        padding: 10px;
+        padding: 10px 10px 0px 10px;
     }
 
     .projects--image {
@@ -160,7 +168,14 @@
 
     .projects--about {
         font-size: 10px;
+        text-align: center;
+        font-weight: bold;
     }  
+
+    .projects--left--container {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .thumbs-wrapper,
