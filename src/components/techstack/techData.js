@@ -1,5 +1,9 @@
 export default [
     {
+        techImage: "../images/techstack/tech-next-js.svg",
+        techText: "Next JS",
+    },
+    {
         techImage: "../images/techstack/tech-chakra-ui.svg",
         techText: "Chakra UI",
     },
