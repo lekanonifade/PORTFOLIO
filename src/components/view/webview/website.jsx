@@ -40,8 +40,8 @@ export default function Website() {
                     </div>
                 </div>
                 <div className="banner">
-                    <h1 className="web--intro">Hello, I am <br />Olamilekan Onifade.</h1>
-                    <h3 class="web--works">
+                    <h1 className="web--intro" data-aos="zoom-out">Hello, I am <br />Olamilekan Onifade.</h1>
+                    <h3 class="web--works" data-aos="zoom-in">
                         i am a
                         <div class="web--intro--about">
                             <span>
@@ -54,10 +54,10 @@ export default function Website() {
                     </h3>
                     <hr className="line" />
                     <div className="getintouch">
-                        <a href="mailto:ayomikunolamilekan@gmail.com"><FontAwesomeIcon icon={faEnvelope} className="home--touch" /></a>
-                        <a href="https://www.linkedin.com/in/lekanonifade/"><FontAwesomeIcon icon={faLinkedin} className="home--touch" /></a>
-                        <a href="https://twitter.com/lekanayomikun"><FontAwesomeIcon icon={faTwitter} className="home--touch" /></a>
-                        <a href="https://github.com/lekanonifade"><FontAwesomeIcon icon={faGithub} className="home--touch" /></a>
+                        <a href="mailto:ayomikunolamilekan@gmail.com" data-aos="fade-right"><FontAwesomeIcon icon={faEnvelope} className="home--touch" /></a>
+                        <a href="https://www.linkedin.com/in/lekanonifade/" data-aos="fade-up-right"><FontAwesomeIcon icon={faLinkedin} className="home--touch" /></a>
+                        <a href="https://twitter.com/lekanayomikun" data-aos="fade-up-left"><FontAwesomeIcon icon={faTwitter} className="home--touch" /></a>
+                        <a href="https://github.com/lekanonifade" data-aos="fade-left"><FontAwesomeIcon icon={faGithub} className="home--touch" /></a>
                     </div>
                 </div>
             </div>

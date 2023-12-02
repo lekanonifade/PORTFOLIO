@@ -9,7 +9,7 @@ export default [
     {
         referencesImage: "../images/references/references-michael.jpeg",
         referencesName: "Adewole Michael",
-        referencesHref: "https://www.michaseyi.tech",
+        referencesHref: "https://michaseyi.vercel.app/",
         referencesLink: "@michaseyi",
         referencesWork: "Full-Stack Developer"
     },
