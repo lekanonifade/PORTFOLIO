@@ -1,7 +1,7 @@
 export default [
     {
         techImage: "../images/techstack/tech-next-js.svg",
-        techText: "Next JS",
+        techText: "Next.js",
     },
     {
         techImage: "../images/techstack/tech-chakra-ui.svg",
@@ -9,7 +9,7 @@ export default [
     },
     {
         techImage: "../images/techstack/tech-node.svg",
-        techText: "NodeJS",
+        techText: "Node.js",
     },
     {
         techImage: "../images/techstack/tech-github.svg",
