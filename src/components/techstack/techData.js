@@ -25,7 +25,7 @@ export default [
     },
     {
         techImage: "../images/techstack/tech-react.svg",
-        techText: "React",
+        techText: "React.js",
     },
     {
         techImage: "../images/techstack/tech-python.svg",
