@@ -3,6 +3,62 @@ export default [
         experienceImage: "../images/experience/experience-fbis.jpeg",
         container1: {
             experienceTitle: "FBIS Technologies Limited",
+            experienceWork: "Frontend Developer",
+            duration: {
+                experienceTitleLink: "https://www.fbistech.com",
+                experienceCompany: "FBIS",
+                experienceDuration: "July 2024 - Present",
+            },
+            experienceNote: "",
+            experienceUl: [
+                
+            ],
+            techstack: [
+                {
+                    experienceTechImage: "",
+                    experienceTechTitle: ""
+                },
+            ]
+        }
+    },
+    {
+        experienceImage: "../images/experience/experience-fbis.jpeg",
+        container1: {
+            experienceTitle: "FBIS Technologies Limited",
+            experienceWork: "Internship",
+            duration: {
+                experienceTitleLink: "https://www.fbistech.com",
+                experienceCompany: "FBIS",
+                experienceDuration: "November 2023 - June 2024",
+            },
+            experienceNote: "",
+            experienceUl: [
+                
+            ],
+            techstack: [
+                {
+                    experienceTechImage: "../images/techstack/tech-chakra-ui.svg",
+                    experienceTechTitle: "Chakra UI"
+                },
+                {
+                    experienceTechImage: "../images/techstack/tech-next-js.svg",
+                    experienceTechTitle: "Next.js"
+                },
+                {
+                    experienceTechImage: "../images/techstack/tech-node.svg",
+                    experienceTechTitle: "Node.js"
+                },
+                {
+                    experienceTechImage: "",
+                    experienceTechTitle: "React Redux"
+                }
+            ]
+        }
+    },
+    {
+        experienceImage: "../images/experience/experience-fbis.jpeg",
+        container1: {
+            experienceTitle: "FBIS Technologies Limited",
             experienceWork: "Internship",
             duration: {
                 experienceTitleLink: "https://www.fbistech.com",
@@ -19,7 +75,7 @@ export default [
             techstack: [
                 {
                     experienceTechImage: "../images/techstack/tech-react.svg",
-                    experienceTechTitle: "React"
+                    experienceTechTitle: "React.js"
                 },
                 {
                     experienceTechImage: "../images/techstack/tech-javascript.svg",
